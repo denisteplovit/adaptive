@@ -1,0 +1,40 @@
+.header {
+  margin: 0 auto;
+  padding-top: 33px;
+  width: 1180px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.nav {
+  float: right;
+  padding-top: 3px;
+}
+
+.header__list {
+  display: inline;
+  margin-left: 53px;
+}
+
+.header__list:nth-last-child(4) {
+  margin-left: 0;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav-link:hover {
+  color: #121212;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.nav-link:nth-last-child(1) {
+  margin-right: 0;
+}
